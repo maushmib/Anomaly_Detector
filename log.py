@@ -1,7 +1,7 @@
 import csv
 
-input_file = "TNAU1.csv"
-output_file = "gps.csv"
+input_file = "output3.csv"
+output_file = "o3.csv"
 
 with open(input_file, "r") as f, open(output_file, "w", newline="") as out:
     reader = csv.reader(f)
